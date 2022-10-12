@@ -40,7 +40,7 @@
 
 <body>
     <h1>Fill The Form</h1>
-    <form action="/msg.html" name="myForm" onsubmit="return validateForm()" method="post">
+    <form action="/Form/msg.html" name="myForm" onsubmit="return validateForm()" method="post">
         <div class="formdesign" id="name">
             Name: <input type="text" name="fname"><span class="formerror"><b></b></span>
         </div>
@@ -51,7 +51,7 @@
             Phone: <input type="phone" name="fphone"><span class="formerror"><b></b></span>
         </div>
         <div class="formdesign" id="pass">
-            Password: <input type="password" name="fpass"><span class="formerror"><b></b></span>
+            Password: <input type="password" name="fpass"><span class="formerror"><b>Password should contain one number and special character</b></span>
         </div>
         <div class="formdesign" id="cpass">
             Confirm Password: <input type="password" name="fcpass"><span class="formerror"><b></b></span>

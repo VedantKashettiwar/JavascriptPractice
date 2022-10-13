@@ -7,7 +7,7 @@ function start(){
     timer=true;
     stopwatch()
 }
-function run(start){
+function run(){
     if(executed==false){
         executed = true;
         start();

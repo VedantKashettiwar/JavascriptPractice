@@ -17,13 +17,13 @@ document.getElementById("Hsubmit").onclick = function(){
         document.getElementById("result").innerHTML = "Your BMI is " + bmi;
     }
     if(bmi<18.5){
-        document.getElementById("feedback").innerHTML = "Underweight";
+        document.getElementById("feedback").innerHTML = "Under Weight";
     }
     else if(bmi>18.5 && bmi<24.9){
         document.getElementById("feedback").innerHTML = "Normal Weight";
     }
     else if(bmi>25 && bmi<29.9){
-        document.getElementById("feedback").innerHTML = "OverWeight";
+        document.getElementById("feedback").innerHTML = "Over Weight";
     }
     else if(bmi>=30){
         document.getElementById("feedback").innerHTML = "Obesity";

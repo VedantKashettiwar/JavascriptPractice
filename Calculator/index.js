@@ -1,6 +1,6 @@
 let op = "";
 let buttons=document.querySelectorAll('.button');
-Array.from(buttons).forEach((buttons)=>{
+buttons.forEach((buttons)=>{
     buttons.addEventListener('click',(e)=>{
         if(e.target.innerHTML == '='){
             op=eval(op)
